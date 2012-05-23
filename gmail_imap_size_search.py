@@ -217,7 +217,6 @@ def process(host, port, username, password, size, use_ssl=False):
 
     # logout and close connection
     imap_connection.logout()
-    imap_connection.shutdown()
 
 
 def parse_options(args):
