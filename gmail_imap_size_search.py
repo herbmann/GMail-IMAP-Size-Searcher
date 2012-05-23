@@ -120,7 +120,7 @@ def input_or_default(prompt, option):
 
 def process(host, port, username, password, size, use_ssl=False):
     # FIXME: make this a parameter
-    dest = 'BIGMAIL'
+    dest = '__Size {0}+ MB'.format(size/1024/1024)
 
     safe_print("\t Connecting to %s:%d..." % (host, port))
 
